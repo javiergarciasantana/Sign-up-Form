@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sign up form</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="left-box">
+        <div class="logo">
+          <img src="./odin.png" alt="plant">
+          <div class="name">ODIN</div>
+        </div>
+      </div>
+      <div class="right-box">
+        <div class="text-box">This is not a real online service! You know you need something
+              like this in your life to help you realize yout deepest dreams.
+              Sign up now to get started.
+        </div>
+        <div class="text-box">You know you want to.</div>
+        <div class="white-box">
+          <div class="header">Let's do this!</div>
+          <div class="fillout">
+            <div class="left-side">
+              <form action="example.com/path" method="post">
+                <label for="first_name">FIRST NAME:</label>
+                <input type="text" id="first_name">
+              </form>
+              <form action="example.com/path" method="post">
+                <label for="email">EMAIL:</label>
+                <input type="text" id="email">
+              </form>
+              <form action="example.com/path" method="post">
+                <label for="password">PASSWORD:</label>
+                <input type="text" id="password">
+                <label id="not_match" for="password"></label>
+              </form>
+            </div>
+            <div class="right-side">
+              <form action="example.com/path" method="post">
+                <label for="first_name">LAST NAME:</label>
+                <input type="text" id="last_name">
+              </form>
+              <form action="example.com/path" method="post">
+                <label for="email">PHONE NUMBER:</label>
+                <input type="text" id="phone">
+              </form>
+              <form action="example.com/path" method="post">
+                <label for="password">CONFIRM PASSWORD:</label>
+                <input type="text" id="confirm_password">
+              </form>
+            </div>
+          </div>
+        </div>
+        <button id="btn" onclick="buttonClick()">Create Account</button>
+        <div class="bottom-text">Already have an account? <span class="login-text">Log in</span></p>
+      </div>
+    </div>
+    
+
+    <script src="index.js"></script>  
+  </body>
+</html>
